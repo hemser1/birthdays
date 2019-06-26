@@ -1,6 +1,8 @@
 require 'pry'
 class Birthday
 
+DATE_FORMAT = '%m-%d'
+
   def initialize
     @list = []
   end
@@ -15,4 +17,7 @@ class Birthday
       end
     end
 # binding.pry
+
+def check
+end
 end
